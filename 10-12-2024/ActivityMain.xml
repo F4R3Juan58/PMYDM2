@@ -1,0 +1,8 @@
+<!-- SeekBar -->
+<SeekBar
+    android:id="@+id/SeekBar"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_width="fill_parent"
+    android:max="200"
+    android:progress="68" />
