@@ -1,0 +1,30 @@
+<!-- Botón para mostrar el primer fragmento -->
+<Button
+    android:id="@+id/btnFirstFragment"
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:text="Primer Fragmento" />
+
+<!-- Botón para mostrar el segundo fragmento -->
+<Button
+    android:id="@+id/btnSecondFragment"
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Segundo Fragmento" />
+
+<!-- Botón para mostrar el tercer fragmento -->
+<Button
+    android:id="@+id/btnThirdFragment"
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Tercer Fragmento" />
+
+<!-- Contenedor para los fragmentos -->
+<FrameLayout
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_marginTop="32dp" />
