@@ -1,14 +1,45 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Menú Ajustes -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="Ajustes">
+        <menu>
+            <item android:id="@+id/action_change_font_size" android:title="Cambiar tamaño de la fuente" />
+            <item android:id="@+id/action_change_theme" android:title="Cambiar tema" />
+            <item android:id="@+id/action_reset_settings" android:title="Resetear ajustes" />
+        </menu>
+    </item>
 
-    <Button
-        android:id="@+id/IdpopUpMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mostrar menú"
-        android:layout_centerInParent="true" />
+    <!-- Menú Ayuda -->
+    <item
+        android:id="@+id/action_help"
+        android:title="Ayuda">
+        <menu>
+            <item android:id="@+id/action_about" android:title="Sobre la aplicación" />
+            <item android:id="@+id/action_faq" android:title="FAQ" />
+            <item android:id="@+id/action_contact_support" android:title="Contacto para soporte" />
+        </menu>
+    </item>
 
-</LinearLayout>
+    <!-- Menú Acciones -->
+    <item
+        android:id="@+id/action_actions"
+        android:title="Acciones">
+        <menu>
+            <item android:id="@+id/action_save_changes" android:title="Guardar cambios" />
+            <item android:id="@+id/action_cancel" android:title="Cancelar" />
+            <item android:id="@+id/action_delete" android:title="Borrar" />
+        </menu>
+    </item>
+
+    <!-- Menú Navegar -->
+    <item
+        android:id="@+id/action_navigate"
+        android:title="Navegar">
+        <menu>
+            <item android:id="@+id/action_home" android:title="Inicio" />
+            <item android:id="@+id/action_back" android:title="Volver" />
+            <item android:id="@+id/action_next" android:title="Siguiente" />
+        </menu>
+    </item>
+</menu>
