@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/simpleButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#00f"
+        android:text="Sonido 1"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:drawableStart="@drawable/ic_launcher_background" />
+    <Button
+        android:id="@+id/simpleButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simpleButton1"
+        android:layout_marginTop="20dp"
+        android:background="#00f"
+        android:text="Sonido 2"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:drawableStart="@drawable/baseline_computer_24" />
+</RelativeLayout> 
